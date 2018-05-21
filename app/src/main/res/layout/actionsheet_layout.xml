@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_sheet_bg_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/action_sheet_anim_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/dip_10"
+        android:paddingRight="@dimen/dip_10"
+        android:paddingBottom="@dimen/dip_5"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/action_sheet_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/action_sheet_cancel_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_48"
+            android:layout_marginTop="@dimen/dip_10"
+            android:text="@string/cancel"
+            android:textSize="16sp"
+            android:background="@drawable/circle_rectangle_bg_selector"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+</FrameLayout>

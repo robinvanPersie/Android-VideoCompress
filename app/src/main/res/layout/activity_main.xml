@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/menu_btn"
+        android:text="choose video file"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dip_50"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar_id"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dip_10"
+        android:layout_marginTop="@dimen/dip_20"
+        android:paddingLeft="@dimen/dip_10"
+        android:paddingRight="@dimen/dip_10"
+        android:max="100"
+        style="?android:attr/progressBarStyleHorizontal" />
+
+    <TextView
+        android:id="@+id/progress_text_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="@dimen/dip_10"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/cancel_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dip_50"
+        android:layout_marginTop="@dimen/dip_10"
+        android:text="cancel current task"
+        android:textAllCaps="false" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/play_btn"
+            android:text="play"
+            android:layout_width="@dimen/dip_180"
+            android:layout_height="@dimen/dip_50" />
+        <Button
+            android:id="@+id/stop_btn"
+            android:text="stop"
+            android:layout_gravity="right"
+            android:layout_width="@dimen/dip_180"
+            android:layout_height="@dimen/dip_50" />
+    </FrameLayout>
+
+    <!--<ViewStub-->
+        <!--android:id="@+id/view_stub_id"-->
+        <!--android:inflatedId="@+id/root_id"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout="@layout/content_video_layout" />-->
+
+    <include layout="@layout/content_video_layout"/>
+
+
+</LinearLayout>
