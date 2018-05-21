@@ -3,7 +3,7 @@
 * 如果有需要兼容4.x的系统的话，可以移步到此项目：[支持4.2以上系统](https://github.com/fishwjy/VideoCompressor)。此项目我在实际开发中也遇到了一些问题，但是似乎其他人都没有遇到，因为我提的issues都没人知道怎么回事...
 
 ## 先上个图
-<iframe height=500 width=500 src="http://ww4.sinaimg.cn/mw690/e75a115bgw1f3rrbzv1m8g209v0diqv7.gif">
+<iframe height=500 width=500 src="https://github.com/robinvanPersie/Android-VideoCompress/blob/master/gif/1526903594183.gif"></iframe>
 
 # 说明
 * 项目中代码来源于google测试代码，同时在github上有另一个人将这部分测试代码抽离了出来，且他未做任何修改，在此先感谢下。查看原项目点击此：[原项目地址](https://github.com/mstorsjo/android-decodeencodetest)。&nbsp;&nbsp;（PS：原项目非Gradle构建）
