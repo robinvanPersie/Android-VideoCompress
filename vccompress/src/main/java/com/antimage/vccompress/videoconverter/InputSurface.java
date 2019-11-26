@@ -1,4 +1,4 @@
-package com.antimage.videocompress.utils.videoconverter;
+package com.antimage.vccompress.videoconverter;
 import android.opengl.EGL14;
 import android.opengl.EGLExt;
 import android.opengl.EGLConfig;

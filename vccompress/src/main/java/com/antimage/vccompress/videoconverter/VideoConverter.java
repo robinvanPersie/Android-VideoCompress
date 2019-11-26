@@ -1,11 +1,11 @@
-package com.antimage.videocompress.utils.videoconverter;
+package com.antimage.vccompress.videoconverter;
 import android.media.*;
 import android.os.*;
 import android.util.Log;
 import android.view.Surface;
 
-import com.antimage.videocompress.utils.DeviceUtils;
-import com.antimage.videocompress.utils.MLog;
+import com.antimage.vccompress.DeviceUtils;
+import com.antimage.vccompress.MLog;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;

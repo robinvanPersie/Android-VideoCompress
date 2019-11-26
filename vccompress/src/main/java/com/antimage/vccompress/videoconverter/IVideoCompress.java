@@ -1,4 +1,4 @@
-package com.antimage.videocompress.utils.videoconverter;
+package com.antimage.vccompress.videoconverter;
 
 /**
  * Created by xuyuming on 2018/4/25

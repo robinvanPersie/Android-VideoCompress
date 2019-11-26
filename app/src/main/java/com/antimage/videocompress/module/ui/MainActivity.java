@@ -8,17 +8,16 @@ import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.view.View;
-import android.view.ViewStub;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.VideoView;
 
+import com.antimage.vccompress.MLog;
 import com.antimage.videocompress.R;
 import com.antimage.videocompress.base.BaseActivity;
 import com.antimage.videocompress.module.contract.MainContract;
 import com.antimage.videocompress.module.presenter.MainPresenter;
-import com.antimage.videocompress.utils.MLog;
-import com.antimage.videocompress.utils.videoconverter.IVideoCompress;
+import com.antimage.vccompress.videoconverter.IVideoCompress;
 import com.antimage.videocompress.widget.MIActionSheet;
 import com.antimage.videocompress.widget.MenuItemClickListener;
 

@@ -1,4 +1,4 @@
-package com.antimage.videocompress.utils.videoconverter;
+package com.antimage.vccompress.videoconverter;
 
 import android.os.AsyncTask;
 

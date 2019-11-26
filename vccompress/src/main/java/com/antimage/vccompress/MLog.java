@@ -1,4 +1,4 @@
-package com.antimage.videocompress.utils;
+package com.antimage.vccompress;
 
 import android.util.Log;
 

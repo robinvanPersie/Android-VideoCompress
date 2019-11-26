@@ -7,13 +7,12 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Environment;
 import android.provider.MediaStore;
-import android.text.TextUtils;
 
+import com.antimage.vccompress.MLog;
+import com.antimage.vccompress.videoconverter.VideoCompressTask;
 import com.antimage.videocompress.base.BasePresenterImpl;
 import com.antimage.videocompress.module.contract.MainContract;
 import com.antimage.videocompress.module.ui.MainActivity;
-import com.antimage.videocompress.utils.MLog;
-import com.antimage.videocompress.utils.videoconverter.VideoCompressTask;
 
 import pub.devrel.easypermissions.EasyPermissions;
 
