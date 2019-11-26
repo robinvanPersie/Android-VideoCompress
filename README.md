@@ -5,6 +5,12 @@
 ## 先上个图
 ![GitHub set up](https://github.com/robinvanPersie/Android-VideoCompress/blob/master/gif/1526903594183.gif)
 
+# 最新版本
+模块|vccompress|
+---|---|
+最新版本| v1.0.0|
+  
+
 # 说明
 * 项目中代码来源于google测试代码，同时在github上有另一个人将这部分测试代码抽离了出来，且他未做任何修改，在此先感谢下。查看原项目点击此：[原项目地址](https://github.com/mstorsjo/android-decodeencodetest)。&nbsp;&nbsp;（PS：原项目非Gradle构建）
 
@@ -28,6 +34,22 @@
   3. 解决：这里我做了机型的判断，华为的手机全部改为使用软编码（OMX.google.h264.encoder），我查看了xiaomi，魅族，华为，vivo手机的配置文件（在/system/etc目录下，要用adb命令pull出来），h264的软编码都是这个编码器，而且这个编码器里有google字符串，我初步断定这个应该是所有手机都会有的h264软编码器。
   
 # 如何使用
+### 添加依赖
+1.在工程根目录下的build.gradle里添加以下配置:
+``` 
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+} 
+```
+2.在主module中添加依赖：
+```
+dependencies {
+     implementation 'com.github.robinvanPersie:Android-VideoCompress:1.0.0'
+}
+```
+### API调用
 关于如何使用，可以参考MainPresenter.java文件，还是比较简单易用的。
   
 # 注意事项
